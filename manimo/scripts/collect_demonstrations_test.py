@@ -27,7 +27,8 @@ def main():
     TIME = args.time
     HZ = 30
     home = HOMES[task]
-
+    # test getting reskin data 
+    # TODO thursday: get rid of camera in config and test reskin 
     hydra.initialize(
             config_path="../conf", job_name="collect_demos_test"
         )
